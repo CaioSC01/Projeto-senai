@@ -1,0 +1,261 @@
+/* zerar arquivo */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aKill{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+    .aKill:hover{
+        color: blueviolet;
+    }
+header{
+    height: 150px;
+    background-color: white;
+}
+
+/* top */
+.bg-top{
+    height: 25px;
+    background-color: black;
+    display: flex;
+}
+.ajust-map{
+    display: flex;
+    margin-left: 70%;
+}
+li{
+    margin-left: 10px;
+    list-style: none;
+    display: inline;
+}
+.icons-top{
+    display: flex;
+    width: 175px;
+}
+.hr-rotate-white{
+    margin-left: 10px;
+    display: flex;
+    height: 25px;
+    width: 3px;
+    background-color: white;
+    border: transparent;
+    moz-transform: rotate(90deg);
+}
+.color-ico{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.content-nav{
+    display: flex;
+    box-sizing: border-box;
+}
+.img-logo{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 60px;
+}
+ul h1{
+    margin-top: -25px;
+}
+.tittle-content-nav{
+    margin-top: 6px;
+    margin-left: 50px;
+}
+
+/* Input de Pesquisa */
+.btn-submit-search{
+    border: 1px solid black;
+    height: 32px;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 10px 0px 0px 10px;
+}
+.lupa-search{
+    color: white;
+    box-sizing: border-box;
+    padding: 11px;
+    padding-top: 7px;
+}
+.map-search{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+input[type = "text"]{
+    border: 1px solid black;
+    padding: 5.5px;
+    padding-top: 6.6px;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.btn-entrar{
+    margin-left: 100px;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.end-navbar{
+    border: transparent;
+    background-color: black;
+    height: 5px;
+}
+.ajust-content-end{
+    display: flex;
+}
+.mobile-item{
+    display: flex;
+}
+.user{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 1440px){
+    li h1{
+        width: 500px;
+    }
+    .map-search{
+        margin-left: 100px;
+    }
+    .ajust-map{
+        margin-left: 60%;
+    }
+    .btn-entrar{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .ajust-map{
+        margin-left: 50%;
+    }
+    .map-search{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .ajust-content-end{
+        display: flex;
+    }
+    .content-nav{
+        display: inline-block;
+    }
+    header{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .ajust-map{
+        margin-left: 35%;
+    }
+    li h1{
+        width: 400px;
+    }
+    header{
+        height: 275px;
+    }
+    .ajust-map{
+        margin-left: 30%;
+    }
+    .ajust-content-end{
+        display: inline-block;
+    }
+    .tittle-content-nav{
+        margin-top: -10px;
+    }
+    .img-logo{
+        margin-left: 225px;
+    }
+    li p{
+        margin-left: 185px;
+    }
+    li h1{
+        margin-left: 115px;
+    }
+    .map-search{
+        margin-left: 190px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .bg-top{
+        height: 50px;
+    }
+    li p{
+        margin-left: 40px;
+    }
+    .img-logo{
+        margin-left: 80px;
+    }
+    .ajust-content-end{
+        display: inline-block;
+    }
+    .ajust-map{
+        margin-left: 0;
+        display: flexbox;
+    }
+    .map-search{
+        margin-left: 50px;
+    }
+    .mobile-item{
+        display: inline-block;
+        margin-left: 75px;
+    }
+    .icons-top{
+        margin-left: 62px;
+    }
+    li h1{
+        margin-left: 0px;
+        width: 320px;
+        text-align: center;
+    }
+    header{
+        height: 330px;
+    }
+    .tittle-content-nav{
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .img-logo{
+        margin-left: 55px;
+    }
+    li p{
+        margin-left: 10px;
+    }
+    li h1{
+        margin-left: -30px;
+    }
+    .map-search{
+        margin-left: 30px;
+    }
+    .btn-entrar{
+        margin-left: 10px;
+    }
+    .ajust-map{
+        margin-left: -30px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .mobile-item{
+        margin-left: 0px;
+    }
+    .tittle-content-nav{
+        margin-left: 40px;
+    }
+    .img-logo{
+        margin-left: 30px;
+    }
+    .map-search{
+        margin-left: 1px;
+    }
+    .ajust-map{
+        margin-left: 10px;
+    }
+    li h1{
+        margin-left: -40px;
+    }
+}
